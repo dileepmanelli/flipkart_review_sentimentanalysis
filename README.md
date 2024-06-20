@@ -1,6 +1,6 @@
 # flipkart_review_sentimentanalysis
-#Flipkart Sentiment Analysis using LSTM
-#Overview
+# Flipkart Sentiment Analysis using LSTM
+# Overview
 This project performs sentiment analysis on Flipkart product reviews using Long Short-Term Memory (LSTM) networks. The model is trained to classify the sentiment of reviews into positive, negative, or neutral categories. The application is deployed as a web service on an AWS EC2 instance, allowing users to input text reviews and receive sentiment predictions in real-time.
 
 #Features
@@ -8,7 +8,7 @@ LSTM Model: Utilizes LSTM neural networks for their ability to capture context a
 Web Application: Provides a user-friendly interface where users can input text reviews.
 Real-time Prediction: Delivers sentiment predictions instantaneously upon submission of reviews.
 AWS EC2 Deployment: Hosted on an AWS EC2 instance for scalability and reliability.
-#Project Structure
+# Project Structure
 ```
 
 ├── app/
@@ -27,7 +27,7 @@ AWS EC2 Deployment: Hosted on an AWS EC2 instance for scalability and reliabilit
 ├── requirements.txt           # Python dependencies
 ```
 
-#Setup Instructions
+# Setup Instructions
 Prerequisites
 Python 3.x
 AWS EC2 instance (or similar server hosting service)
@@ -51,15 +51,15 @@ This will start the Flask development server.
 Access the web application:
 Open a web browser and navigate to http://your-ec2-instance-ip:5000 (replace your-ec2-instance-ip with your actual EC2 instance IP address). You should see the web interface for entering reviews.
 
-#Usage
+# Usage
 Enter a review: Type or paste a review into the input box on the web interface.
 Submit: Click the "Predict Sentiment" button to receive the sentiment prediction.
 View result: The sentiment prediction (positive, negative, or neutral) will be displayed below the input box.
 Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests with improvements or additional features.
 
-#License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-#Acknowledgments
+# Acknowledgments
 Inspired by the need to analyze sentiment from Flipkart reviews using deep learning techniques.
