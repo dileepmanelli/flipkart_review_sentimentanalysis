@@ -9,7 +9,7 @@ Web Application: Provides a user-friendly interface where users can input text r
 Real-time Prediction: Delivers sentiment predictions instantaneously upon submission of reviews.
 AWS EC2 Deployment: Hosted on an AWS EC2 instance for scalability and reliability.
 #Project Structure
-///
+\`
 
 ├── app/
 │   ├── templates/
@@ -25,7 +25,7 @@ AWS EC2 Deployment: Hosted on an AWS EC2 instance for scalability and reliabilit
 │   ├── lstm_sentiment_model.h5# Pre-trained LSTM model weights
 ├── README.md                  # This file, containing project information and setup instructions
 ├── requirements.txt           # Python dependencies
-///
+\`
 
 #Setup Instructions
 Prerequisites
